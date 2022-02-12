@@ -34,6 +34,10 @@ header p {
   width: 100%;
   border-bottom: 1px solid #ccc;
   max-width: 480px;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
 }
 
 .cd {
@@ -108,6 +112,9 @@ header p {
 .playlist {
   margin-top: 420px;
   padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .song {
@@ -118,6 +125,8 @@ header p {
   height: 76px;
   align-items: center;
   margin-bottom: 10px;
+  max-width: 480px;
+  cursor: pointer;
 }
 
 .song:active {
